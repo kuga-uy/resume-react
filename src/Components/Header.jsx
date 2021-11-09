@@ -1,5 +1,6 @@
 import React from 'react'
 import profile from '../assets/Main-Profile-Pic.jpg'
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -23,9 +24,9 @@ const Header = () => {
                 <div className="weather__status-container">Weather today:
                     <span className="weather-forecast">Sunny</span>Tomorrow: <span className="weather-tomorrow-forecast">Clear</span></div>
                     <ul className="nav__menu">
-                        <li className="navlist item--home"><a href="#home">Home</a></li>
-                        <li className="navlist item--resume"> <a href="#resume">Resume</a></li>
-                        <li className="navlist item--contact"><a href="#contact">Contact</a></li>
+                        <li className="navlist item--home"><Link to="/">Home</Link> </li>
+                        <li className="navlist item--resume"> <Link to="/resume">Resume</Link></li>
+                        <li className="navlist item--contact"><Link to="/contact">Contact</Link></li> 
                     </ul>
             </nav>
         </header>
