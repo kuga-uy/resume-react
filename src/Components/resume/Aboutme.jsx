@@ -1,5 +1,6 @@
 import React from 'react'
 import { ProgressBar } from './ProgressBar';
+import { HobbieIcon } from './HobbieIcon';
 
 const Aboutme = () => {
     return (
@@ -19,18 +20,9 @@ const Aboutme = () => {
   <div className="hobbies-container">
       <h3 className="hobbies-title">Hobbies</h3>
       <div className="icons-container">
-          <div className="icon-container">
-              <img src="assets/game-development@2x.png" className="hobbies-img" alt="gaming-icon"/>
-              <h5 className="hobbie-title">Gaming</h5>
-          </div>
-          <div className="icon-container">
-              <img src="assets/Photographer@2x.png" className="hobbies-img" alt="photography-icon"/>
-              <h5 className="hobbie-title">Photography</h5>
-          </div>
-          <div className="icon-container">
-              <img className="hobbies-img" src="assets/Group@2x.png" alt="blogging-icon"/>
-              <h5 className="hobbie-title">Blogging</h5>
-          </div>
+          <HobbieIcon name={'Gaming'} img={"assets/game-development@2x.png"}/>
+          <HobbieIcon name={'Photography'} img={"assets/Photographer@2x.png"}/>
+          <HobbieIcon name={'Blogging'} img={"assets/Group@2x.png"}/>
       </div>
       <div className="more-aboutme-container">
           <h6>Know More About Me</h6>
