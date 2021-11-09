@@ -380,7 +380,7 @@ font-size: 0.7em;
 
 .presentation__personal-info-container{
 width: 85%;
-top: 430px;
+top: 450px;
 left: 20px;
 }
 
@@ -410,12 +410,10 @@ font-size: 2.5em;
 margin: 0px;
 }
 
-
-
 .social-network-container{
 height: 60px;
 position: relative;
-top: 401px;
+top: 438px;
 }
 
 }

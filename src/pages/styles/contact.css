@@ -116,11 +116,13 @@
     background-color: #000;
     color: var(--second-text-color);
     width: 100%;
+    height: 100vh;
+    top: 120px;
     display: flex;
     align-items: center;
     position: relative;
     height: 66px;
-    top: 125px;
+    justify-self: flex-end;
 }
 
 .footer ul{
@@ -144,7 +146,7 @@
 
     .contact-section{
         position: relative;
-        top: 445px;
+        top: 300px;
         justify-content: center;
     }
 
@@ -172,7 +174,7 @@
     }
 
     .footer{
-        top: 720px;
+        top:382px;
     }
 
     .triangulo{

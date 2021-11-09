@@ -491,7 +491,7 @@ padding: 10px;
     
     .aboutme__container{
         flex-direction: column-reverse;
-        top: 270px;
+        top: 180px;
         position: relative;
 
     }
@@ -573,6 +573,7 @@ padding: 10px;
 
     .experience-container{
         top: 313px;
+        height: 2200px;
         justify-content: center;
     }
 
@@ -587,6 +588,8 @@ padding: 10px;
 
     .experience-text-container{
         width: 80%;
+        position: relative;
+        top: -120px;
     }
 
 
@@ -599,6 +602,10 @@ padding: 10px;
         top: 220px;
     }
 
+
+    .certificates-card-grid{
+        top: -92px;
+    }
     .item-1{
         grid-row: 1/2;
         text-align: left;
@@ -718,16 +725,16 @@ padding: 10px;
    
 
     .tech-stack-card{
-        height: 199px;
+        height: 250px;
          position: absolute;
          width: 80%;
-         top: 1520px;
+         top: 1340px;
          overflow-y: hidden;
     }
 
     .tech-stack-wrapper{
         width: 100%;
-        height: 150px;
+        height: 180px;
         position: relative;
         overflow-y: hidden;
     }
@@ -799,7 +806,7 @@ padding: 10px;
     }
 
     .reference-title{
-        top: 224px;
+        top: 130px;
         font-size: 1.5em;
         right: 0px;
     }
@@ -814,10 +821,11 @@ padding: 10px;
     }
 
     .reference-section{
-        top: 334px;
+        top: 280px;
         height: 480px;
         overflow-y: hidden;
         width: 90%;
+        
        
     }
 
@@ -833,7 +841,7 @@ padding: 10px;
     width: 100%;
     justify-content: center;
     position: absolute;
-    top: 165px;
+    top: 205px;
     left: 10px;
 }
 
@@ -855,5 +863,7 @@ padding: 10px;
     border-radius: 50%;
     background-color:var(--main-bg-color);
 
+
 }
+
 }

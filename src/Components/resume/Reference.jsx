@@ -6,7 +6,7 @@ const Reference = () => {
 
     const referenceCard = references.map(({title, subtitle, name, img, description, id}) => {
         return (
-        <div key={id} className="reference-card rc-1">
+        <div key={id} className={`reference-card rc${id}`} >
         <h5 className="reference-card-title">{title}</h5>
         <h6 className="reference-card-subtitle">{subtitle}</h6>
         <div className="reference-profile-container">
