@@ -1,18 +1,18 @@
 import React from 'react';
-import './App.css';
-import './Contact.css';
-import './Resume.css';
+import '../src/pages/styles/home.css';
+import '../src/pages/styles/contact.css';
+import '../src/pages/styles/resume.css';
 import {
   BrowserRouter,
   Routes,
-  Route
+  Route,
 } from "react-router-dom";
 
-import { Header } from './Components/Header';
-import { Home } from './Components/Home';
-import { Resume } from './Components/Resume';
-import { Contact } from './Components/Contact';
-import { Footer } from './Components/Footer';
+import { Header } from './components/Header';
+import { Home } from './pages/Home';
+import { Resume } from './pages/Resume';
+import { Contact } from './pages/Contact';
+import { Footer } from './components/Footer';
 
 
 
@@ -29,6 +29,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
     </Routes>
     <Footer />
+    
   </BrowserRouter>,                                               
 </body>
 </>

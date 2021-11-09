@@ -1,6 +1,5 @@
 import React from 'react'
-import profile from '../assets/Main-Profile-Pic.jpg'
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 
 const Header = () => {
@@ -10,7 +9,7 @@ const Header = () => {
             <div className="header__profile-container">
                 <div className="header__profile-wrapper">
                     <div className="header__img-container">
-                    <img className="header__avatar-img" src={profile} alt="profile"/ >
+                    <img className="header__avatar-img" src="assets/Main-Profile-Pic.jpg" alt="profile"/ >
                     <div className="header__status-circle"></div>
                 </div>
             </div>    

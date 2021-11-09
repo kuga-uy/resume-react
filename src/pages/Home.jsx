@@ -1,9 +1,4 @@
 import React from 'react'
-import cvIcon from "../assets/Frame.png";
-import linkedin from "../assets/linkedin-vector.png";
-import github from "../assets/github-vector.png";
-import profile from '../assets/Main-Profile-Pic.jpg'
-import email from "../assets/email-vector.png";
 
 const Home = () => {
     return (
@@ -27,20 +22,20 @@ const Home = () => {
                 <dt className="info-box">Adress:</dt>
                 <dd className="info">Av Siempre Viva 742, Springfield</dd>
             </div>
-            <div className="info-container download-cv__btn">DOWNLOAD MY FULL CV<img className="download-icon" src={cvIcon} alt="cv-icon"/>
+            <div className="info-container download-cv__btn">DOWNLOAD MY FULL CV<img className="download-icon" src="assets/Frame.png" alt="cv-icon"/>
             </div>
         </dl>
 
         <div className="social-network-container">
-            <img className="icon linkedin-icon" src={linkedin} alt="linkedin"/>
-            <img className="icon github-icon" src={github} alt="github"/>
-            <img className="icon email-icon" src={email} alt="email"/>
+            <img className="icon linkedin-icon" src="assets/linkedin-vector.png" alt="linkedin"/>
+            <img className="icon github-icon" src="assets/github-vector.png" alt="github"/>
+            <img className="icon email-icon" src="assets/email-vector.png" alt="email"/>
         </div>
     </div>
 
 
     <div className="presentation__img-section">
-        <img className="presentation__img" src={profile} alt="main-profile"/>
+        <img className="presentation__img" src="assets/Main-Profile-Pic.jpg" alt="main-profile"/>
     </div>       
   </section>
         </>

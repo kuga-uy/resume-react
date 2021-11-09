@@ -1,0 +1,29 @@
+{
+    "references": [
+        {
+            "id": "1",
+            "title": "A Breathtaking Person!",
+            "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ipsam at quasi repellendus quod maiores voluptates. Ipsam ipsa quas numquam impedit eum molestias possimus autem laborum repudiandae consequatur. Voluptates, ratione!",
+            "img": "assets/Mask Group.png",
+            "name": "Keanu Reeves",
+            "description": "A Cyberpunk"
+
+        },
+        {
+            "id": "2",
+            "title": "took an arrow in the knee!",
+            "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ipsam at quasi repellendus quod maiores voluptates. Ipsam ipsa quas numquam impedit eum molestias possimus autem laborum repudiandae consequatur. Voluptates, ratione!",
+            "img": "assets/Mask Group-1.png",
+            "name": "Skyrim Guard",
+            "description": "Used to be an adventurer"   
+        },
+        {
+            "id": "3",
+            "title": "오징어 게임",
+            "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ipsam at quasi repellendus quod maiores voluptates. Ipsam ipsa quas numquam impedit eum molestias possimus autem laborum repudiandae consequatur. Voluptates, ratione!",
+            "img": "assets/Mask Group-2.png",
+            "name": "Seong Gi-hun",
+            "description": "Play games"   
+        }
+    ]
+}
