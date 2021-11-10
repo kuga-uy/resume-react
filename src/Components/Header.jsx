@@ -1,8 +1,10 @@
 import React from 'react'
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import { WeatherStatus } from './resume/WeatherStatus';
 
 
 const Header = () => {
+
     return (
        <>
         <header className="header">
@@ -20,8 +22,7 @@ const Header = () => {
             </div>
 
             <nav className="nav__container">
-                <div className="weather__status-container">Weather today:
-                    <span className="weather-forecast">Sunny</span>Tomorrow: <span className="weather-tomorrow-forecast">Clear</span></div>
+                <WeatherStatus />
                     <ul className="nav__menu">
                         <li className="navlist item--home"><Link to="/">Home</Link> </li>
                         <li className="navlist item--resume"> <Link to="/resume">Resume</Link></li>
