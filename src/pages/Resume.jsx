@@ -7,13 +7,12 @@ const Resume = () => {
         <>
 <main className="aboutme__container">
   <Aboutme />
-
     <div className="inspirational-quote-wrapper">
       <h2 className="inspirational-quote">Super Pretty <span className="different-color-text"><br/>Inspirational</span> Quote</h2>
       <img className="logo" src="assets/Group 2.png" alt="logo"/>
     </div>
 </main>
-<Experience />
+  <Experience />
         </>
     )
 }

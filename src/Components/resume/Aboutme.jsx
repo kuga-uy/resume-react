@@ -29,7 +29,6 @@ const Aboutme = () => {
           <img className="network-icon" src="assets/Icons-twitter.png" alt="twitter" />
           <img className="network-icon" src="assets/Icons-instagram.png" alt="instagram" />
           <img className="network-icon" src="assets/Icons-Youtube.png" alt="youtube" />
-
       </div>
 
   </div>

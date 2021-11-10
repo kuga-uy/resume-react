@@ -1,30 +1,32 @@
 import React from 'react'
+import { useState, useEffect } from 'react';
+import { PersonalInfo } from '../components/home/PersonalInfo';
 
 const Home = () => {
+   const [greetingsHours, setGreetingsHours] = useState(new Date().getHours());
+
+   useEffect(()=> {
+            if ( greetingsHours < 12 ) {
+               setGreetingsHours("Good Morning! ");
+            } else if ( greetingsHours >= 12 && greetingsHours < 18 ) {
+                setGreetingsHours("Good Afternoon! ");
+            } else if (greetingsHours > 18 && greetingsHours < 20) {
+                setGreetingsHours("Good Evening! ");
+            } else if ( greetingsHours > 20 ) {
+                setGreetingsHours("Good Night! ");
+            }       
+  },[greetingsHours])
+      
+
     return (
         <>
     <section id="home" className="presentation__section">
         <div className="presentation__wrapper">
             <div className="presentation__text-section">
-                <h1 className="presentation__title"><span id="variable-greetings"></span>Welcome to my <span className="different-color-text">Personal</span> Webpage</h1>
+                <h1 className="presentation__title"><span id="variable-greetings" >{greetingsHours}</span>Welcome to my <span className="different-color-text">Personal</span> Webpage</h1>
                 <h6 className="presentation__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea minima vel totam et maiores numquam itaque alias quos animi, tenetur cum debitis</h6>
             </div>
-        <dl className="presentation__personal-info-container">
-            <div className="info-container info--nacionality">
-                <dt className="info-box">Nacionality:</dt>
-                <dd className="info">Uruguayan</dd>
-            </div>
-            <div className="info-container info--dob">
-                <dt className="info-box">DOB:</dt>
-                 <dd className="info">25/01/1996</dd>
-            </div>
-            <div className="info-container info--address">
-                <dt className="info-box">Adress:</dt>
-                <dd className="info">Av Siempre Viva 742, Springfield</dd>
-            </div>
-            <div className="info-container download-cv__btn">DOWNLOAD MY FULL CV<img className="download-icon" src="assets/Frame.png" alt="cv-icon"/>
-            </div>
-        </dl>
+        <PersonalInfo />
 
         <div className="social-network-container">
             <img className="icon linkedin-icon" src="assets/linkedin-vector.png" alt="linkedin"/>
