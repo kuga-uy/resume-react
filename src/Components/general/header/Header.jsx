@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from "react-router-dom";
-import { WeatherStatus } from './resume/WeatherStatus';
+import { Navbar } from './navbar/Navbar';
+import './header.css';
 
 
 const Header = () => {
@@ -21,14 +21,7 @@ const Header = () => {
             </div>
             </div>
 
-            <nav className="nav__container">
-                <WeatherStatus />
-                    <ul className="nav__menu">
-                        <li className="navlist item--home"><Link to="/">Home</Link> </li>
-                        <li className="navlist item--resume"> <Link to="/resume">Resume</Link></li>
-                        <li className="navlist item--contact"><Link to="/contact">Contact</Link></li> 
-                    </ul>
-            </nav>
+            <Navbar />
         </header>
        </>
     )

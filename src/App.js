@@ -1,18 +1,17 @@
 import React from 'react';
-import '../src/pages/styles/home.css';
-import '../src/pages/styles/contact.css';
-import '../src/pages/styles/resume.css';
+import '../src/pages/contact/contact.css';
+import '../src/pages/resume/resume.css';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
 
-import { Header } from './components/Header';
-import { Home } from './pages/Home';
-import { Resume } from './pages/Resume';
-import { Contact } from './pages/Contact';
-import { Footer } from './components/Footer';
+import { Header } from './components/general/header/Header';
+import { Home } from './pages/home/Home';
+import { Resume } from './pages/resume/Resume';
+import { Contact } from './pages/contact/Contact';
+import { Footer } from './components/general/footer/Footer';
 
 
 

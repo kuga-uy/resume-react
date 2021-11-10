@@ -1,6 +1,6 @@
 import React from 'react'
-import { Experience } from '../components/resume/Experience';
-import { Aboutme } from '../components/resume/Aboutme';
+import { Experience } from '../../components/resume/Experience';
+import { Aboutme } from '../../components/resume/Aboutme';
 
 const Resume = () => {
     return (

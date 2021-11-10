@@ -1,0 +1,43 @@
+:root{
+    --primary-font-family: 'Roboto', Arial;
+    --second-text-color:#e99c31;
+}
+
+
+.footer{
+    display: flex;
+    background-color: #000;
+    color: var(--second-text-color);
+    width: 100%;
+    height: 100vh;
+    top: 120px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 66px;
+    justify-self: flex-end;
+}
+
+.footer ul{
+    display: flex;
+}
+.footer ul li{
+    list-style: none;
+}
+
+
+
+.footer-link {
+    margin-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: var(--primary-font-family);
+    font-size: 0.8em;
+    color: #fff;
+}
+
+@media (max-width: 420px){
+    .footer{
+        top:382px;
+    }
+}
