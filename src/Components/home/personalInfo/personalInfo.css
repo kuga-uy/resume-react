@@ -1,0 +1,43 @@
+
+.presentation__personal-info-container{
+    display: flex;
+    font-size: 0.8em;
+    width:55%;
+    flex-direction: column;
+    position: relative;
+    left: 60px;
+    top: 10px;
+    }
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    font-family: var(--primary-font-family);
+    margin-bottom: 20px;
+    }
+
+    .download-cv__btn{
+        position:relative;
+        border: 1px solid var(--main-bg-color);
+        top: 10px;
+        display: flex;
+        font-size: 0.8em;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        }
+        
+        .download-icon{
+        position: relative;
+        left:50px;
+        width:12px;
+        }
+        
+@media(max-width: 420px){
+    .presentation__personal-info-container{
+        width: 85%;
+        top: 450px;
+        left: 20px;
+        }
+}

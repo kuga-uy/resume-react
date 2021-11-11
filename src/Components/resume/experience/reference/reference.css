@@ -1,0 +1,71 @@
+.reference-title-container{
+    width:100%;
+    position:relative;
+    top: 100px;
+    display:flex;
+    text-align: center;
+}
+
+.reference-title{
+    position: relative;
+    font-family: var(--primary-font-family);
+    font-size: 2em;
+    width: 100%;
+    right: 320px;
+    
+}
+
+.reference-card{
+    justify-content: center;
+    width: 25%;
+    position: relative;
+    height:280px;
+    box-shadow: 3px 6px 6px 3px #2222;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px; 
+    text-align: left;
+}
+
+.reference-name{
+    margin: 0px;
+}
+
+.reference-card-subtitle{
+    font-weight: lighter;
+    color: var(--third-text-color);
+}
+
+.reference-profile-container{
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reference-description{
+    font-weight: lighter;
+    color: var(--third-text-color);
+    margin: 5px;
+}
+
+
+@media(max-width: 420px){
+    .reference-title-container{
+        top: 120px;
+
+    }
+
+    .reference-title{
+        top: 130px;
+        font-size: 1.5em;
+        right: 0px;
+    }
+
+    .reference-card {
+        width: 80%;
+        position: absolute;
+    }
+}

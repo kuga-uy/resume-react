@@ -1,6 +1,6 @@
 import React from 'react'
-import { PersonalInfo } from '../../components/home/PersonalInfo'
-import { PresentationTitle } from '../../components/home/PresentationTitle';
+import { PersonalInfo } from '../../components/home/personalInfo/PersonalInfo'
+import { PresentationTitle } from '../../components/home/presentationTitle/PresentationTitle';
 import './home.css';
 
 const Home = () => {

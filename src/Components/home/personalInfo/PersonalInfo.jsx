@@ -1,5 +1,6 @@
 import React from 'react'
-import {InfoBox} from './InfoBox';
+import {InfoBox} from '../infoBox/InfoBox';
+import './personalInfo.css';
 
 const PersonalInfo = () => {
     return (

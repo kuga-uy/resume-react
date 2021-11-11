@@ -1,0 +1,21 @@
+
+:root{
+    --main-bg-color: #ee8a2f;
+    --first-text-color: #fff;
+}
+.info{
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    }
+    
+    
+    .info-box{
+    display: flex;
+    height: 15px;
+    background-color: var(--main-bg-color);
+    color: var(--first-text-color);
+    justify-content: center;
+    align-items: center;
+    padding: 7px 7px 7px 7px
+    }

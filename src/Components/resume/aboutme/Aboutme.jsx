@@ -1,6 +1,6 @@
 import React from 'react'
-import { ProgressBar } from './ProgressBar';
-import { HobbieIcon } from './HobbieIcon';
+import { ProgressBar } from './progressBar/ProgressBar';
+import { HobbieIcon } from './hobbieIcon/HobbieIcon';
 
 const Aboutme = () => {
     return (
