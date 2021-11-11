@@ -1,5 +1,5 @@
 import React from 'react'
-import 'stackCard.css';
+import './stackCard.css';
 
 const StackCard = () => {
     return (
