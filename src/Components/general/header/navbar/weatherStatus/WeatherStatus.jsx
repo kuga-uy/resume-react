@@ -12,8 +12,6 @@ const WeatherStatus = () => {
         const url = 'https://api.weather.gov/gridpoints/TOP/31,80/forecast';
 
         const getData = (data) => {
-            console.log('data passed in')
-            console.log(data)
             const nextDay = 2;
             const toDay = 0;
             setWeatherToday(data.properties.periods[toDay].shortForecast);
