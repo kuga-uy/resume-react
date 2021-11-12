@@ -35,20 +35,9 @@
 .form-title{
     font-size: 1em;
 }
-.input{
-    border: none;
-    outline: none;
-    background-color: var(--third-bg-color);
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    height: 30px;
-}
 
-.message-input{
-    height: 150px;
 
-}
+
 
 .triangulo {
     width: 0;
@@ -85,6 +74,11 @@
     width: 12px;
 }
 
+.error{
+    color: red;
+    margin-bottom: 5px;
+}
+
 
 @media(max-width: 420px){
     .form-container{
@@ -98,5 +92,11 @@
         top:240px;
         right: 203px;
         transform: rotate(275deg);
+    }
+
+    .error{
+        color: red;
+        font-size: 0.8rem;
+        margin-top: 0px;
     }
 }

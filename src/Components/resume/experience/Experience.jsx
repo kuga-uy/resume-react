@@ -2,6 +2,7 @@ import React from 'react'
 import { Reference } from './reference/Reference';
 import { StackCard } from './stackCard/StackCard';
 import './experience.css';
+import './stackCard/stackCard.css';
 
 const Experience = () => {
     return (

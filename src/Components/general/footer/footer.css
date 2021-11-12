@@ -34,10 +34,12 @@
     font-family: var(--primary-font-family);
     font-size: 0.8em;
     color: #fff;
+    position: relative;
+    bottom: 0px;
 }
 
 @media (max-width: 420px){
-    .footer{
+   .footer{
         top:382px;
     }
 }
